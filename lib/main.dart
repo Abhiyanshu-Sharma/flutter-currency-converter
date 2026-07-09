@@ -1,4 +1,4 @@
-import 'package:currency_convertor/currency_convertor_material_page.dart';
+import 'package:currency_convertor/currency_converter_material_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
