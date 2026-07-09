@@ -19,6 +19,7 @@ A flutter application that converts currencies using live exchange rates fetched
 
 ## Project Structure
 
+```text
 lib/
 │
 ├── services/
@@ -27,6 +28,7 @@ lib/
 ├── currency_convertor_material_page.dart
 │
 └── main.dart
+```
 
 ## Author 
 Abhiyanshu Sharma
