@@ -2,16 +2,16 @@ import 'package:currency_convertor/services/currency_service.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-class CurrencyConvertorMaterialPage extends StatefulWidget {
-  const CurrencyConvertorMaterialPage({super.key});
+class CurrencyConverterMaterialPage extends StatefulWidget {
+  const CurrencyConverterMaterialPage({super.key});
 
   @override
-  State<CurrencyConvertorMaterialPage> createState() =>
-      _CurrencyConvertorMaterialPage();
+  State<CurrencyConverterMaterialPage> createState() =>
+      _CurrencyConverterMaterialPage();
 }
 
-class _CurrencyConvertorMaterialPage
-    extends State<CurrencyConvertorMaterialPage> {
+class _CurrencyConverterMaterialPage
+    extends State<CurrencyConverterMaterialPage> {
   double result = 0;
 
   String fromCurrency = 'USD';
