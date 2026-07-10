@@ -37,14 +37,12 @@ class _CurrencyConverterMaterialPage
 
   @override
   Widget build(BuildContext context) {
-    // Problem 3 & 7: Streamlined input border for inside the card
     final border = OutlineInputBorder(
       borderSide: const BorderSide(color: Colors.black45, width: 1.5),
       borderRadius: BorderRadius.circular(12),
     );
 
     return Scaffold(
-      // Problem 9: Changed background color for a premium, modern feel
       backgroundColor: Colors.grey.shade200,
       appBar: AppBar(
         backgroundColor: Colors.grey.shade200,
@@ -61,7 +59,6 @@ class _CurrencyConverterMaterialPage
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // Problem 7: Everything grouped neatly inside a beautiful Card
               Card(
                 color: Colors.white,
                 elevation: 12,
@@ -89,7 +86,7 @@ class _CurrencyConverterMaterialPage
                         controller: textEditingController,
                         style: const TextStyle(color: Colors.black),
                         decoration: InputDecoration(
-                          hintText: "Enter Amount", // Problem 4: Fixed casing
+                          hintText: "Enter Amount",
                           hintStyle: TextStyle(color: Colors.grey.shade500),
                           prefixIcon: const Icon(
                             Icons.monetization_on_outlined,
